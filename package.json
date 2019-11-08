@@ -4,7 +4,8 @@
   "description": "MobilPay Gateway library",
   "main": "index.js",
   "scripts": {
-    "build": "gulp dist-es5"
+    "build": "gulp dist-es5",
+    "preinstall": "npm run build"
   },
   "repository": {
     "url": "https://github.com/robi-richter/mobilpay-node",
