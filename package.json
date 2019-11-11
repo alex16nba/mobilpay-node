@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp dist-es5",
+    "preinstall": "npm i",
     "postinstall": "npm run build"
   },
   "repository": {
